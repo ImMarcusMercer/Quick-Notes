@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Log in to Username</string>
+    <string name="appbar_scrolling_view_behavior">Sign in to Username</string>
+    <string name="bottom_sheet_behavior">Enter Player 1 Username</string>
+    <string name="material_motion_easing_accelerated">Enter Player 2 Username</string>
+    <string name="material_motion_easing_emphasized">Player 1 Username</string>
+    <string name="Enter_Username_for_player">Enter Username</string>
+    <string name="side_sheet_behavior">START GAME</string>
+    <string name="fab_transformation_sheet_behavior">RESET ANOTHER GAME</string>
+    <string name="material_motion_easing_standard">Back to Game</string>
+    <string name="hide_bottom_view_on_scroll_behavior">Player 1 -</string>
+    <string name="searchbar_scrolling_view_behavior">Player 2 -</string>
+    <string name="fab_transformation_scrim_behavior">Score Chart</string>
+    <string name="SOS_the_game_for_two_players">SOS</string>
+    <string name="what_is_this">SOS</string>
+</resources>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/idk"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7697A0">
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="137dp"
+        android:layout_height="40dp"
+        android:ellipsize="none"
+        android:gravity="start"
+        android:scrollbarFadeDuration="250"
+        android:scrollbarSize="4dp"
+        android:text="@string/material_motion_easing_standard"
+        android:textSize="14sp"
+        app:backgroundTint="#D9D9D9"
+        app:iconSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.043"
+        app:layout_optimizationLevel="ratio"
+        tools:targetApi="30" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Score Chart"
+        android:textColor="#D9D9D9"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.147" />
+
+    <View
+        android:id="@+id/view5"
+        android:layout_width="277dp"
+        android:layout_height="439dp"
+        android:background="#17616E"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.739" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="248dp"
+        android:layout_height="39dp"
+        android:gravity="bottom"
+        android:text="@string/hide_bottom_view_on_scroll_behavior"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        app:backgroundTint="#D9D9D9"
+        app:cornerRadius="10sp"
+        app:iconGravity="textEnd|textStart|textTop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.255" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="248dp"
+        android:layout_height="39dp"
+        android:gravity="bottom"
+        android:text="@string/searchbar_scrolling_view_behavior"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        app:backgroundTint="#D9D9D9"
+        app:cornerRadius="10sp"
+        app:iconGravity="textEnd|textStart|textTop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.345" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="111dp"
+        android:layout_height="72dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.977"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023"
+        app:srcCompat="@drawable/exitt" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
